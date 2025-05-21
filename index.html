@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df18b27b69.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="brand"><img src="logo.png" alt="Spotify"><span>spotify</span></li>
+                <div class="navother">
+                    <li>Home</li>
+                    <li>About</li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+       
+        <div class="songList">
+            <h1>Best of All Time</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songname">Love song</span>
+                    <span class="songlistplay"><span class="time">5:14  <i id="1" class="far songplay fa-play-circle"></i></span>   </i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songname">Love song</span>
+                    <span class="songlistplay"><span class="time">5:14  <i id="2" class="far songplay fa-play-circle"></i></span>   </i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songname">Love song</span>
+                    <span class="songlistplay"><span class="time">5:14  <i id="3" class="far songplay fa-play-circle"></i></span>   </i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songname">Love song</span>
+                    <span class="songlistplay"><span class="time">5:14  <i id="4" class="far songplay fa-play-circle"></i></span>   </i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songname">Love song</span>
+                    <span class="songlistplay"><span class="time">5:14  <i id="5" class="far songplay fa-play-circle"></i></span>   </i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songname">Love song</span>
+                    <span class="songlistplay"><span class="time">5:14  <i id="6" class="far songplay fa-play-circle"></i></span>   </i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songname">Love song</span>
+                    <span class="songlistplay"><span class="time">5:14  <i id="7" class="far songplay fa-play-circle"></i></span>   </i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </main>
+
+    <footer class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="pre" class="fa-solid fa-3x fa-backward-step"></i>          
+              <i id="masterplay" class="far fa-3x fa-play-circle"></i>
+              <i id="next" class="fa-solid fa-3x fa-forward-step"></i>       
+             </div>
+             <div class="songinfo">
+                <img src="playing.gif" alt="2" width="42px" id="gif">
+                <span id="mastersongname">love you</span>
+             </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

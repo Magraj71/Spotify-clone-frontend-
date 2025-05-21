@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Ubuntu", serif;
+   
+    margin-bottom: 5px;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 55px;
+    color: white;
+
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul .navother{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+nav ul .brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container{
+    /* border: 1px solid black; */
+    height: 70vh;
+    /* background-color: black; */
+    color: white;
+    font-family: "Varela Round", serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 30px;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    position: sticky;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    /* margin-top: 40px; */
+}
+.songitem{
+    display: flex;
+    height: 50px;
+    /* width: 100%; */
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+    border-radius: 23px;
+}
+.time{
+    margin: 0 23px;
+}
+.songitem img{
+    width: 40px;
+    margin: 0 20px;
+    border-radius: 34px;
+}
+.songinfo{
+    position: absolute;
+    left: 83px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
